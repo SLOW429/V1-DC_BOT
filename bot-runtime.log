@@ -1,0 +1,12 @@
+
+> premium-discord-bot@1.0.0 start
+> node src/index.js
+
+Logged in as SLOW SYSTEM BOT#3298
+(node:5960) Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[PROCESS_WARNING] Warning: Supplying "ephemeral" for interaction response options is deprecated. Utilize flags instead.
+    at ButtonInteraction.reply (C:\Users\ABDELLATIF GAHEN\OneDrive - Ankara Bilim Üniversitesi\Desktop\discord bot\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:167:19)
+    at createTicket (C:\Users\ABDELLATIF GAHEN\OneDrive - Ankara Bilim Üniversitesi\Desktop\discord bot\src\systems\ticketSystem.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.execute (C:\Users\ABDELLATIF GAHEN\OneDrive - Ankara Bilim Üniversitesi\Desktop\discord bot\src\events\interactionCreate.js:35:9)
